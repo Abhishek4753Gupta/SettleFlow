@@ -13,25 +13,8 @@ A modern **MERN-stack** app for managing shared expenses with:
 
 ## ✨ Features
 
-### 🧠 1. Natural-Language Expense Parsing
 
-Instead of filling 4–5 fields per expense, users can paste text like:
-
-> “I paid 1200 for hotel, Rohit paid 600 for dinner, Aman paid 300 for snacks”
-
-SettleFlow’s **NLP-lite parser**:
-
-- Extracts payer names  
-- Extracts amounts  
-- Infers descriptions  
-- Auto-splits across members  
-- Creates multiple expenses in one shot  
-
-No external AI calls → **fast** and **privacy-friendly**.
-
----
-
-### 🔄 2. Minimal-Transaction Settlements
+### 🔄 1. Minimal-Transaction Settlements
 
 SettleFlow computes **who owes whom** using a simple optimization:
 
@@ -46,7 +29,7 @@ The app also generates a **plain-English explanation** of why each transfer is s
 
 ---
 
-### 📊 3. Monthly Insights
+### 📊 2. Monthly Insights
 
 For each group, SettleFlow provides:
 
@@ -57,7 +40,7 @@ For each group, SettleFlow provides:
 
 ---
 
-### 👥 4. Group & Member Management
+### 👥 3. Group & Member Management
 
 - Create groups for **trips**, **flats**, **fests**, etc.  
 - Add members by email (registered users)  
@@ -65,7 +48,7 @@ For each group, SettleFlow provides:
 
 ---
 
-### 🎨 5. Fintech-Style Dark UI + Theme Toggle
+### 🎨 4. Fintech-Style Dark UI + Theme Toggle
 
 - Dark-first design with **black × teal** fintech vibe  
 - Clean cards, layouts, and typography using **TailwindCSS**  
